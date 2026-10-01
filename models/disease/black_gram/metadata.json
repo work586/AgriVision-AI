@@ -1,0 +1,17 @@
+{
+  "crop": "black_gram",
+  "classes": [
+    "anthracnose",
+    "healthy",
+    "leaf crinckle",
+    "powdery mildew",
+    "yellow mosaic"
+  ],
+  "num_classes": 5,
+  "train_images": 702,
+  "val_images": 149,
+  "test_images": 156,
+  "best_val_accuracy": 78.52348993288591,
+  "test_accuracy": 87.82051282051282,
+  "image_size": 160
+}

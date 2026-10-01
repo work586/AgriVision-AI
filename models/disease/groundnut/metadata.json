@@ -1,0 +1,18 @@
+{
+  "crop": "groundnut",
+  "classes": [
+    "early_leaf_spot_1",
+    "early_rust_1",
+    "healthy_leaf_1",
+    "late_leaf_spot_1",
+    "nutrition_deficiency_1",
+    "rust_1"
+  ],
+  "num_classes": 6,
+  "train_images": 6725,
+  "val_images": 1184,
+  "test_images": 2451,
+  "best_val_accuracy": 87.66891891891892,
+  "test_accuracy": 94.4920440636475,
+  "image_size": 160
+}

@@ -1,0 +1,21 @@
+{
+  "crop": "lemon",
+  "classes": [
+    "Anthracnose",
+    "Bacterial_Blight",
+    "Citrus_Canker",
+    "Curl_Virus",
+    "Deficiency_Leaf",
+    "Dry_Leaf",
+    "Healthy_Leaf",
+    "Sooty_Mould",
+    "Spider_Mites"
+  ],
+  "num_classes": 9,
+  "train_images": 812,
+  "val_images": 140,
+  "test_images": 402,
+  "best_val_accuracy": 86.42857142857143,
+  "test_accuracy": 89.55223880597015,
+  "image_size": 160
+}

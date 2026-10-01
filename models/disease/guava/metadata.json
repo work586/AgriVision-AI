@@ -1,0 +1,19 @@
+{
+  "crop": "guava",
+  "classes": [
+    "Anthracnose",
+    "Canker",
+    "Dot",
+    "Healthy",
+    "Rust",
+    "Scab",
+    "Styler_end_root"
+  ],
+  "num_classes": 7,
+  "train_images": 2132,
+  "val_images": 454,
+  "test_images": 463,
+  "best_val_accuracy": 71.1453744493392,
+  "test_accuracy": 73.00215982721382,
+  "image_size": 160
+}

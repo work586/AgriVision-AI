@@ -1,0 +1,170 @@
+{
+  "black_gram": {
+    "crop": "black_gram",
+    "classes": [
+      "anthracnose",
+      "healthy",
+      "leaf crinckle",
+      "powdery mildew",
+      "yellow mosaic"
+    ],
+    "num_classes": 5,
+    "train_images": 702,
+    "val_images": 149,
+    "test_images": 156,
+    "best_val_accuracy": 78.52348993288591,
+    "test_accuracy": 87.82051282051282,
+    "image_size": 160
+  },
+  "chilli": {
+    "crop": "chilli",
+    "classes": [
+      "cercospora",
+      "healthy",
+      "mites_and_trips",
+      "nutritional",
+      "powdery mildew"
+    ],
+    "num_classes": 5,
+    "train_images": 261,
+    "val_images": 44,
+    "test_images": 227,
+    "best_val_accuracy": 65.9090909090909,
+    "test_accuracy": 45.37444933920705,
+    "image_size": 160
+  },
+  "cotton": {
+    "crop": "cotton",
+    "classes": [
+      "bacterial_blight",
+      "curl_virus",
+      "fussarium_wilt",
+      "healthy"
+    ],
+    "num_classes": 4,
+    "train_images": 1195,
+    "val_images": 254,
+    "test_images": 261,
+    "best_val_accuracy": 89.37007874015748,
+    "test_accuracy": 91.95402298850574,
+    "image_size": 160
+  },
+  "groundnut": {
+    "crop": "groundnut",
+    "classes": [
+      "early_leaf_spot_1",
+      "early_rust_1",
+      "healthy_leaf_1",
+      "late_leaf_spot_1",
+      "nutrition_deficiency_1",
+      "rust_1"
+    ],
+    "num_classes": 6,
+    "train_images": 6725,
+    "val_images": 1184,
+    "test_images": 2451,
+    "best_val_accuracy": 87.66891891891892,
+    "test_accuracy": 94.4920440636475,
+    "image_size": 160
+  },
+  "guava": {
+    "crop": "guava",
+    "classes": [
+      "Anthracnose",
+      "Canker",
+      "Dot",
+      "Healthy",
+      "Rust",
+      "Scab",
+      "Styler_end_root"
+    ],
+    "num_classes": 7,
+    "train_images": 2132,
+    "val_images": 454,
+    "test_images": 463,
+    "best_val_accuracy": 71.1453744493392,
+    "test_accuracy": 73.00215982721382,
+    "image_size": 160
+  },
+  "lemon": {
+    "crop": "lemon",
+    "classes": [
+      "Anthracnose",
+      "Bacterial_Blight",
+      "Citrus_Canker",
+      "Curl_Virus",
+      "Deficiency_Leaf",
+      "Dry_Leaf",
+      "Healthy_Leaf",
+      "Sooty_Mould",
+      "Spider_Mites"
+    ],
+    "num_classes": 9,
+    "train_images": 812,
+    "val_images": 140,
+    "test_images": 402,
+    "best_val_accuracy": 86.42857142857143,
+    "test_accuracy": 89.55223880597015,
+    "image_size": 160
+  },
+  "mango": {
+    "crop": "mango",
+    "classes": [
+      "Anthracnose",
+      "Bacterial Canker",
+      "Cutting Weevil",
+      "Die Back",
+      "Gall Midge",
+      "Healthy",
+      "Powdery Mildew",
+      "Sooty Mould"
+    ],
+    "num_classes": 8,
+    "train_images": 2800,
+    "val_images": 600,
+    "test_images": 600,
+    "best_val_accuracy": 95.66666666666667,
+    "test_accuracy": 95.83333333333334,
+    "image_size": 160
+  },
+  "rice": {
+    "crop": "rice",
+    "classes": [
+      "Rice___bacterial_blight",
+      "Rice___blast",
+      "Rice___brown_spot",
+      "Rice___leaf_scald",
+      "Rice___tungro",
+      "healthy_rice_plant"
+    ],
+    "num_classes": 6,
+    "train_images": 606,
+    "val_images": 127,
+    "test_images": 136,
+    "best_val_accuracy": 56.69291338582677,
+    "test_accuracy": 57.35294117647059,
+    "image_size": 160
+  },
+  "sugarcane": {
+    "crop": "sugarcane",
+    "classes": [
+      "Banded Chlorosis",
+      "Brown Spot",
+      "BrownRust",
+      "Grassy shoot",
+      "Healthy",
+      "Pokkah Boeng",
+      "Sett Rot",
+      "Viral Disease",
+      "Yellow Leaf",
+      "smut"
+    ],
+    "num_classes": 10,
+    "train_images": 4479,
+    "val_images": 956,
+    "test_images": 970,
+    "best_val_accuracy": 76.88284518828452,
+    "test_accuracy": 74.3298969072165,
+    "image_size": 160
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "crop": "sugarcane",
+  "classes": [
+    "Banded Chlorosis",
+    "Brown Spot",
+    "BrownRust",
+    "Grassy shoot",
+    "Healthy",
+    "Pokkah Boeng",
+    "Sett Rot",
+    "Viral Disease",
+    "Yellow Leaf",
+    "smut"
+  ],
+  "num_classes": 10,
+  "train_images": 4479,
+  "val_images": 956,
+  "test_images": 970,
+  "best_val_accuracy": 76.88284518828452,
+  "test_accuracy": 74.3298969072165,
+  "image_size": 160
+}

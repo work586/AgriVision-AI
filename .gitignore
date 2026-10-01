@@ -1,0 +1,9 @@
+__pycache__/
+venv/
+.env
+*.db
+*.bak
+*.zip
+data/price/
+data/price_data_cache.pkl
+models/crop_classifier/crop_classifier_test.pth

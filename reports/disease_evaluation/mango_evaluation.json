@@ -1,0 +1,163 @@
+{
+  "crop": "mango",
+  "test_images": 600,
+  "accuracy": 0.9583333333333334,
+  "weighted_precision": 0.960352354056335,
+  "weighted_recall": 0.9583333333333334,
+  "weighted_f1": 0.9580165842848214,
+  "classes": [
+    "Anthracnose",
+    "Bacterial Canker",
+    "Cutting Weevil",
+    "Die Back",
+    "Gall Midge",
+    "Healthy",
+    "Powdery Mildew",
+    "Sooty Mould"
+  ],
+  "classification_report": {
+    "Anthracnose": {
+      "precision": 0.9726027397260274,
+      "recall": 0.9466666666666667,
+      "f1-score": 0.9594594594594594,
+      "support": 75.0
+    },
+    "Bacterial Canker": {
+      "precision": 1.0,
+      "recall": 0.92,
+      "f1-score": 0.9583333333333334,
+      "support": 75.0
+    },
+    "Cutting Weevil": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 75.0
+    },
+    "Die Back": {
+      "precision": 0.9868421052631579,
+      "recall": 1.0,
+      "f1-score": 0.9933774834437086,
+      "support": 75.0
+    },
+    "Gall Midge": {
+      "precision": 0.9473684210526315,
+      "recall": 0.96,
+      "f1-score": 0.9536423841059603,
+      "support": 75.0
+    },
+    "Healthy": {
+      "precision": 0.9493670886075949,
+      "recall": 1.0,
+      "f1-score": 0.974025974025974,
+      "support": 75.0
+    },
+    "Powdery Mildew": {
+      "precision": 0.872093023255814,
+      "recall": 1.0,
+      "f1-score": 0.9316770186335404,
+      "support": 75.0
+    },
+    "Sooty Mould": {
+      "precision": 0.9545454545454546,
+      "recall": 0.84,
+      "f1-score": 0.8936170212765957,
+      "support": 75.0
+    },
+    "accuracy": 0.9583333333333334,
+    "macro avg": {
+      "precision": 0.960352354056335,
+      "recall": 0.9583333333333333,
+      "f1-score": 0.9580165842848215,
+      "support": 600.0
+    },
+    "weighted avg": {
+      "precision": 0.960352354056335,
+      "recall": 0.9583333333333334,
+      "f1-score": 0.9580165842848214,
+      "support": 600.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      71,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      69,
+      0,
+      0,
+      2,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      75,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      75,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      72,
+      1,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      75,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      75,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      10,
+      63
+    ]
+  ]
+}

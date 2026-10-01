@@ -1,0 +1,97 @@
+{
+  "crop": "chilli",
+  "test_images": 227,
+  "accuracy": 0.45374449339207046,
+  "weighted_precision": 0.6150501625829753,
+  "weighted_recall": 0.45374449339207046,
+  "weighted_f1": 0.38188699274638593,
+  "classes": [
+    "cercospora",
+    "healthy",
+    "mites_and_trips",
+    "nutritional",
+    "powdery mildew"
+  ],
+  "classification_report": {
+    "cercospora": {
+      "precision": 0.8666666666666667,
+      "recall": 0.13,
+      "f1-score": 0.22608695652173913,
+      "support": 100.0
+    },
+    "healthy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 25.0
+    },
+    "mites_and_trips": {
+      "precision": 0.28865979381443296,
+      "recall": 0.875,
+      "f1-score": 0.43410852713178294,
+      "support": 32.0
+    },
+    "nutritional": {
+      "precision": 0.4027777777777778,
+      "recall": 0.8285714285714286,
+      "f1-score": 0.5420560747663551,
+      "support": 35.0
+    },
+    "powdery mildew": {
+      "precision": 0.8461538461538461,
+      "recall": 0.9428571428571428,
+      "f1-score": 0.8918918918918919,
+      "support": 35.0
+    },
+    "accuracy": 0.45374449339207046,
+    "macro avg": {
+      "precision": 0.4808516168825447,
+      "recall": 0.5552857142857143,
+      "f1-score": 0.4188286900623538,
+      "support": 227.0
+    },
+    "weighted avg": {
+      "precision": 0.6150501625829753,
+      "recall": 0.45374449339207046,
+      "f1-score": 0.38188699274638593,
+      "support": 227.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      13,
+      3,
+      45,
+      36,
+      3
+    ],
+    [
+      0,
+      0,
+      18,
+      5,
+      2
+    ],
+    [
+      2,
+      0,
+      28,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      4,
+      29,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      33
+    ]
+  ]
+}

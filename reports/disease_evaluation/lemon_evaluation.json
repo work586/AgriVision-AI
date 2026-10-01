@@ -1,0 +1,189 @@
+{
+  "crop": "lemon",
+  "test_images": 402,
+  "accuracy": 0.8955223880597015,
+  "weighted_precision": 0.9035669809882391,
+  "weighted_recall": 0.8955223880597015,
+  "weighted_f1": 0.8935761709182705,
+  "classes": [
+    "Anthracnose",
+    "Bacterial_Blight",
+    "Citrus_Canker",
+    "Curl_Virus",
+    "Deficiency_Leaf",
+    "Dry_Leaf",
+    "Healthy_Leaf",
+    "Sooty_Mould",
+    "Spider_Mites"
+  ],
+  "classification_report": {
+    "Anthracnose": {
+      "precision": 0.95,
+      "recall": 0.6333333333333333,
+      "f1-score": 0.76,
+      "support": 30.0
+    },
+    "Bacterial_Blight": {
+      "precision": 0.9655172413793104,
+      "recall": 0.9032258064516129,
+      "f1-score": 0.9333333333333333,
+      "support": 31.0
+    },
+    "Citrus_Canker": {
+      "precision": 0.847457627118644,
+      "recall": 0.9433962264150944,
+      "f1-score": 0.8928571428571429,
+      "support": 53.0
+    },
+    "Curl_Virus": {
+      "precision": 0.9666666666666667,
+      "recall": 0.8529411764705882,
+      "f1-score": 0.90625,
+      "support": 34.0
+    },
+    "Deficiency_Leaf": {
+      "precision": 0.896551724137931,
+      "recall": 0.9122807017543859,
+      "f1-score": 0.9043478260869565,
+      "support": 57.0
+    },
+    "Dry_Leaf": {
+      "precision": 0.9821428571428571,
+      "recall": 1.0,
+      "f1-score": 0.990990990990991,
+      "support": 55.0
+    },
+    "Healthy_Leaf": {
+      "precision": 0.7948717948717948,
+      "recall": 0.9841269841269841,
+      "f1-score": 0.8794326241134752,
+      "support": 63.0
+    },
+    "Sooty_Mould": {
+      "precision": 0.8695652173913043,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8791208791208791,
+      "support": 45.0
+    },
+    "Spider_Mites": {
+      "precision": 0.9615384615384616,
+      "recall": 0.7352941176470589,
+      "f1-score": 0.8333333333333334,
+      "support": 34.0
+    },
+    "accuracy": 0.8955223880597015,
+    "macro avg": {
+      "precision": 0.9149235100274411,
+      "recall": 0.8726096927875495,
+      "f1-score": 0.8866295699817901,
+      "support": 402.0
+    },
+    "weighted avg": {
+      "precision": 0.9035669809882391,
+      "recall": 0.8955223880597015,
+      "f1-score": 0.8935761709182705,
+      "support": 402.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      19,
+      1,
+      1,
+      1,
+      0,
+      0,
+      6,
+      2,
+      0
+    ],
+    [
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      50,
+      0,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      29,
+      1,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      52,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      55,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      62,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      40,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      0,
+      2,
+      0,
+      0,
+      2,
+      25
+    ]
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "crop": "black_gram",
+    "test_images": 156,
+    "accuracy": 87.82,
+    "precision": 88.14,
+    "recall": 87.82,
+    "f1": 87.75
+  },
+  {
+    "crop": "chilli",
+    "test_images": 227,
+    "accuracy": 45.37,
+    "precision": 61.51,
+    "recall": 45.37,
+    "f1": 38.19
+  },
+  {
+    "crop": "cotton",
+    "test_images": 261,
+    "accuracy": 91.95,
+    "precision": 92.1,
+    "recall": 91.95,
+    "f1": 91.86
+  },
+  {
+    "crop": "groundnut",
+    "test_images": 2451,
+    "accuracy": 94.49,
+    "precision": 94.93,
+    "recall": 94.49,
+    "f1": 94.41
+  },
+  {
+    "crop": "guava",
+    "test_images": 463,
+    "accuracy": 73.0,
+    "precision": 72.83,
+    "recall": 73.0,
+    "f1": 70.14
+  },
+  {
+    "crop": "lemon",
+    "test_images": 402,
+    "accuracy": 89.55,
+    "precision": 90.36,
+    "recall": 89.55,
+    "f1": 89.36
+  },
+  {
+    "crop": "mango",
+    "test_images": 600,
+    "accuracy": 95.83,
+    "precision": 96.04,
+    "recall": 95.83,
+    "f1": 95.8
+  },
+  {
+    "crop": "rice",
+    "test_images": 136,
+    "accuracy": 57.35,
+    "precision": 62.26,
+    "recall": 57.35,
+    "f1": 53.62
+  },
+  {
+    "crop": "sugarcane",
+    "test_images": 970,
+    "accuracy": 74.33,
+    "precision": 75.01,
+    "recall": 74.33,
+    "f1": 73.9
+  }
+]

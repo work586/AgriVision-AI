@@ -1,0 +1,17 @@
+{
+  "crop": "chilli",
+  "classes": [
+    "cercospora",
+    "healthy",
+    "mites_and_trips",
+    "nutritional",
+    "powdery mildew"
+  ],
+  "num_classes": 5,
+  "train_images": 261,
+  "val_images": 44,
+  "test_images": 227,
+  "best_val_accuracy": 65.9090909090909,
+  "test_accuracy": 45.37444933920705,
+  "image_size": 160
+}

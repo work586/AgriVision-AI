@@ -1,0 +1,16 @@
+{
+  "crop": "cotton",
+  "classes": [
+    "bacterial_blight",
+    "curl_virus",
+    "fussarium_wilt",
+    "healthy"
+  ],
+  "num_classes": 4,
+  "train_images": 1195,
+  "val_images": 254,
+  "test_images": 261,
+  "best_val_accuracy": 89.37007874015748,
+  "test_accuracy": 91.95402298850574,
+  "image_size": 160
+}

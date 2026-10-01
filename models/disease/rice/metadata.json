@@ -1,0 +1,18 @@
+{
+  "crop": "rice",
+  "classes": [
+    "Rice___bacterial_blight",
+    "Rice___blast",
+    "Rice___brown_spot",
+    "Rice___leaf_scald",
+    "Rice___tungro",
+    "healthy_rice_plant"
+  ],
+  "num_classes": 6,
+  "train_images": 606,
+  "val_images": 127,
+  "test_images": 136,
+  "best_val_accuracy": 56.69291338582677,
+  "test_accuracy": 57.35294117647059,
+  "image_size": 160
+}

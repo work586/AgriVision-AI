@@ -1,0 +1,97 @@
+{
+  "crop": "black_gram",
+  "test_images": 156,
+  "accuracy": 0.8782051282051282,
+  "weighted_precision": 0.8813869350796346,
+  "weighted_recall": 0.8782051282051282,
+  "weighted_f1": 0.8775407748010488,
+  "classes": [
+    "anthracnose",
+    "healthy",
+    "leaf crinckle",
+    "powdery mildew",
+    "yellow mosaic"
+  ],
+  "classification_report": {
+    "anthracnose": {
+      "precision": 0.9032258064516129,
+      "recall": 0.8,
+      "f1-score": 0.8484848484848485,
+      "support": 35.0
+    },
+    "healthy": {
+      "precision": 0.8421052631578947,
+      "recall": 0.9411764705882353,
+      "f1-score": 0.8888888888888888,
+      "support": 34.0
+    },
+    "leaf crinckle": {
+      "precision": 0.9523809523809523,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8888888888888888,
+      "support": 24.0
+    },
+    "powdery mildew": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8571428571428571,
+      "support": 28.0
+    },
+    "yellow mosaic": {
+      "precision": 0.868421052631579,
+      "recall": 0.9428571428571428,
+      "f1-score": 0.9041095890410958,
+      "support": 35.0
+    },
+    "accuracy": 0.8782051282051282,
+    "macro avg": {
+      "precision": 0.8846551863529794,
+      "recall": 0.8749019607843138,
+      "f1-score": 0.8775030144893158,
+      "support": 156.0
+    },
+    "weighted avg": {
+      "precision": 0.8813869350796346,
+      "recall": 0.8782051282051282,
+      "f1-score": 0.8775407748010488,
+      "support": 156.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      28,
+      0,
+      0,
+      4,
+      3
+    ],
+    [
+      2,
+      32,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      3,
+      20,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      24,
+      2
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      33
+    ]
+  ]
+}

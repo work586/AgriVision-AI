@@ -1,0 +1,79 @@
+{
+  "crop": "cotton",
+  "test_images": 261,
+  "accuracy": 0.9195402298850575,
+  "weighted_precision": 0.9210265208788997,
+  "weighted_recall": 0.9195402298850575,
+  "weighted_f1": 0.9185791090293668,
+  "classes": [
+    "bacterial_blight",
+    "curl_virus",
+    "fussarium_wilt",
+    "healthy"
+  ],
+  "classification_report": {
+    "bacterial_blight": {
+      "precision": 0.95,
+      "recall": 0.8382352941176471,
+      "f1-score": 0.890625,
+      "support": 68.0
+    },
+    "curl_virus": {
+      "precision": 0.9193548387096774,
+      "recall": 0.890625,
+      "f1-score": 0.9047619047619048,
+      "support": 64.0
+    },
+    "fussarium_wilt": {
+      "precision": 0.9104477611940298,
+      "recall": 0.953125,
+      "f1-score": 0.9312977099236641,
+      "support": 64.0
+    },
+    "healthy": {
+      "precision": 0.9027777777777778,
+      "recall": 1.0,
+      "f1-score": 0.948905109489051,
+      "support": 65.0
+    },
+    "accuracy": 0.9195402298850575,
+    "macro avg": {
+      "precision": 0.9206450944203712,
+      "recall": 0.9204963235294118,
+      "f1-score": 0.918897431043655,
+      "support": 261.0
+    },
+    "weighted avg": {
+      "precision": 0.9210265208788997,
+      "recall": 0.9195402298850575,
+      "f1-score": 0.9185791090293668,
+      "support": 261.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      57,
+      5,
+      1,
+      5
+    ],
+    [
+      1,
+      57,
+      5,
+      1
+    ],
+    [
+      2,
+      0,
+      61,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      65
+    ]
+  ]
+}

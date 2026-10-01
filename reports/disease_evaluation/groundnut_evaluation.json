@@ -1,0 +1,117 @@
+{
+  "crop": "groundnut",
+  "test_images": 2451,
+  "accuracy": 0.944920440636475,
+  "weighted_precision": 0.9493389510787881,
+  "weighted_recall": 0.944920440636475,
+  "weighted_f1": 0.9440911420417682,
+  "classes": [
+    "early_leaf_spot_1",
+    "early_rust_1",
+    "healthy_leaf_1",
+    "late_leaf_spot_1",
+    "nutrition_deficiency_1",
+    "rust_1"
+  ],
+  "classification_report": {
+    "early_leaf_spot_1": {
+      "precision": 0.9601226993865031,
+      "recall": 0.7652811735941321,
+      "f1-score": 0.8517006802721089,
+      "support": 409.0
+    },
+    "early_rust_1": {
+      "precision": 0.9728395061728395,
+      "recall": 0.9633251833740831,
+      "f1-score": 0.9680589680589681,
+      "support": 409.0
+    },
+    "healthy_leaf_1": {
+      "precision": 0.8237704918032787,
+      "recall": 0.9828850855745721,
+      "f1-score": 0.8963210702341137,
+      "support": 409.0
+    },
+    "late_leaf_spot_1": {
+      "precision": 0.9975,
+      "recall": 0.9851851851851852,
+      "f1-score": 0.991304347826087,
+      "support": 405.0
+    },
+    "nutrition_deficiency_1": {
+      "precision": 0.9785202863961814,
+      "recall": 1.0,
+      "f1-score": 0.9891435464414958,
+      "support": 410.0
+    },
+    "rust_1": {
+      "precision": 0.9636803874092009,
+      "recall": 0.9731051344743277,
+      "f1-score": 0.9683698296836983,
+      "support": 409.0
+    },
+    "accuracy": 0.944920440636475,
+    "macro avg": {
+      "precision": 0.949405561861334,
+      "recall": 0.9449636270337166,
+      "f1-score": 0.944149740419412,
+      "support": 2451.0
+    },
+    "weighted avg": {
+      "precision": 0.9493389510787881,
+      "recall": 0.944920440636475,
+      "f1-score": 0.9440911420417682,
+      "support": 2451.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      313,
+      0,
+      86,
+      1,
+      9,
+      0
+    ],
+    [
+      0,
+      394,
+      0,
+      0,
+      0,
+      15
+    ],
+    [
+      7,
+      0,
+      402,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      399,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      410,
+      0
+    ],
+    [
+      0,
+      11,
+      0,
+      0,
+      0,
+      398
+    ]
+  ]
+}
